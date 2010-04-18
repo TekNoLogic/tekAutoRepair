@@ -1,0 +1,14 @@
+## Interface: 30300
+
+## Title: tekAutoRepair
+## Notes: Automatically repair shits
+## Author: Tekkub Stoutwrithe
+## Version: Alpha
+## X-Website: http://tekkub.net/
+## X-Email: tekkub-wow@googlegroups.com
+## X-Category: Misc
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Merchant: true
+
+tekAutoRepair.lua
