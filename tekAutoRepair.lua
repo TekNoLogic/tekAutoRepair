@@ -1,7 +1,7 @@
 
 local f = CreateFrame("Frame")
 f:SetScript("OnEvent", function()
-	if not CanMerchantRepair() or UnitLevel("player") < MAX_PLAYER_LEVEL or GetMoney() < GetRepairAllCost() then return end
+	if not CanMerchantRepair() or GetMoney() < 1000000 or GetMoney() < GetRepairAllCost() then return end
 	RepairAllItems()
 end)
 
